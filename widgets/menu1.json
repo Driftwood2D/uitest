@@ -1,0 +1,87 @@
+{
+  "type": "menu",
+  "image": "menu1.png",
+  "x": null,
+  "y": null,
+  "width": 200,
+  "height": 50,
+  "align": {"bottom": 10},
+  "default": [0, 0],
+  "slots": [
+    [
+      {
+        "type": "button",
+        "images": {
+          "selected": "b1_selected.png",
+          "deselected": "b1_deselected.png"
+        },
+        "x": 10,
+        "y": 10,
+        "width": 35,
+        "height": 10,
+        "triggers": {
+          "select": ["button.py", "select", 1],
+          "deselect": ["button.py", "deselect", 1],
+          "toggle": ["button.py", "toggle", 1]
+        }
+      },
+      {
+        "type": "button",
+        "images": {
+          "selected": "b2_selected.png",
+          "deselected": "b2_deselected.png"
+        },
+        "x": 50,
+        "y": 10,
+        "width": 35,
+        "height": 10,
+        "triggers": {
+          "select": ["button.py", "select", 2],
+          "deselect": ["button.py", "deselect", 2],
+          "toggle": ["button.py", "toggle", 2]
+        }
+      }
+    ],
+    [
+      {
+        "type": "button",
+        "images": {
+          "selected": "b3_selected.png",
+          "deselected": "b3_deselected.png"
+        },
+        "x": 10,
+        "y": 25,
+        "width": 35,
+        "height": 10,
+        "triggers": {
+          "select": ["button.py", "select", 3],
+          "deselect": ["button.py", "deselect", 3],
+          "toggle": ["button.py", "toggle", 3]
+        }
+      },
+      {
+        "type": "button",
+        "images": {
+          "selected": "b4_selected.png",
+          "deselected": "b4_deselected.png"
+        },
+        "x": 50,
+        "y": 25,
+        "width": 35,
+        "height": 10,
+        "triggers": {
+          "select": ["button.py", "select", 4],
+          "deselect": ["button.py", "deselect", 4],
+          "toggle": ["button.py", "toggle", 4]
+        }
+      }
+    ]
+  ],
+  "keybinds": {
+    "select_up": "UP",
+    "select_down": "DOWN",
+    "select_left": "LEFT",
+    "select_right": "RIGHT",
+    "toggle": "RETURN"
+  }
+}
