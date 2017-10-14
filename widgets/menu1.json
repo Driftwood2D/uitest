@@ -12,8 +12,8 @@
       {
         "type": "button",
         "images": {
-          "selected": "b1_selected.png",
-          "deselected": "b1_deselected.png"
+          "selected": "button1_selected.png",
+          "deselected": "button1_deselected.png"
         },
         "x": 10,
         "y": 10,
@@ -28,8 +28,8 @@
       {
         "type": "button",
         "images": {
-          "selected": "b2_selected.png",
-          "deselected": "b2_deselected.png"
+          "selected": "button2_selected.png",
+          "deselected": "button2_deselected.png"
         },
         "x": 50,
         "y": 10,
@@ -46,8 +46,8 @@
       {
         "type": "button",
         "images": {
-          "selected": "b3_selected.png",
-          "deselected": "b3_deselected.png"
+          "selected": "button3_selected.png",
+          "deselected": "button3_deselected.png"
         },
         "x": 10,
         "y": 25,
@@ -62,8 +62,8 @@
       {
         "type": "button",
         "images": {
-          "selected": "b4_selected.png",
-          "deselected": "b4_deselected.png"
+          "selected": "button4_selected.png",
+          "deselected": "button4_deselected.png"
         },
         "x": 50,
         "y": 25,
