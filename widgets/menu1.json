@@ -78,10 +78,10 @@
     ]
   ],
   "keybinds": {
-    "select_up": "UP",
-    "select_down": "DOWN",
-    "select_left": "LEFT",
-    "select_right": "RIGHT",
-    "toggle": "RETURN"
+    "select_up": "up",
+    "select_down": "down",
+    "select_left": "left",
+    "select_right": "right",
+    "toggle": "space"
   }
 }
