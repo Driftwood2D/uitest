@@ -3,7 +3,7 @@ def test():
     Driftwood.window.title("Driftwood 2D - UI Test #2")
 
     # Load the widgets.
-    a = Driftwood.script["stdlib/widget.py"].load("widgets/menu1.json")
+    a = Driftwood.widget.load("widgets/menu1.json")
 
     print(a)
 
