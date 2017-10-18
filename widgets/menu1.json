@@ -1,87 +1,89 @@
-{
-  "type": "menu",
-  "image": "menu1.png",
-  "x": null,
-  "y": null,
-  "width": 200,
-  "height": 50,
-  "align": {"bottom": 10},
-  "default": [0, 0],
-  "slots": [
-    [
-      {
-        "type": "button",
-        "images": {
-          "selected": "button1_selected.png",
-          "deselected": "button1_deselected.png"
+[
+  {
+    "type": "menu",
+    "image": "menu1.png",
+    "x": null,
+    "y": null,
+    "width": 200,
+    "height": 50,
+    "align": {"bottom": 10},
+    "default": [0, 0],
+    "slots": [
+      [
+        {
+          "type": "button",
+          "images": {
+            "selected": "button1_selected.png",
+            "deselected": "button1_deselected.png"
+          },
+          "x": 10,
+          "y": 10,
+          "width": 35,
+          "height": 10,
+          "triggers": {
+            "select": ["button.py", "select", 1],
+            "deselect": ["button.py", "deselect", 1],
+            "toggle": ["button.py", "toggle", 1]
+          }
         },
-        "x": 10,
-        "y": 10,
-        "width": 35,
-        "height": 10,
-        "triggers": {
-          "select": ["button.py", "select", 1],
-          "deselect": ["button.py", "deselect", 1],
-          "toggle": ["button.py", "toggle", 1]
+        {
+          "type": "button",
+          "images": {
+            "selected": "button2_selected.png",
+            "deselected": "button2_deselected.png"
+          },
+          "x": 50,
+          "y": 10,
+          "width": 35,
+          "height": 10,
+          "triggers": {
+            "select": ["button.py", "select", 2],
+            "deselect": ["button.py", "deselect", 2],
+            "toggle": ["button.py", "toggle", 2]
+          }
         }
-      },
-      {
-        "type": "button",
-        "images": {
-          "selected": "button2_selected.png",
-          "deselected": "button2_deselected.png"
+      ],
+      [
+        {
+          "type": "button",
+          "images": {
+            "selected": "button3_selected.png",
+            "deselected": "button3_deselected.png"
+          },
+          "x": 10,
+          "y": 25,
+          "width": 35,
+          "height": 10,
+          "triggers": {
+            "select": ["button.py", "select", 3],
+            "deselect": ["button.py", "deselect", 3],
+            "toggle": ["button.py", "toggle", 3]
+          }
         },
-        "x": 50,
-        "y": 10,
-        "width": 35,
-        "height": 10,
-        "triggers": {
-          "select": ["button.py", "select", 2],
-          "deselect": ["button.py", "deselect", 2],
-          "toggle": ["button.py", "toggle", 2]
+        {
+          "type": "button",
+          "images": {
+            "selected": "button4_selected.png",
+            "deselected": "button4_deselected.png"
+          },
+          "x": 50,
+          "y": 25,
+          "width": 35,
+          "height": 10,
+          "triggers": {
+            "select": ["button.py", "select", 4],
+            "deselect": ["button.py", "deselect", 4],
+            "toggle": ["button.py", "toggle", 4]
+          }
         }
-      }
+      ]
     ],
-    [
-      {
-        "type": "button",
-        "images": {
-          "selected": "button3_selected.png",
-          "deselected": "button3_deselected.png"
-        },
-        "x": 10,
-        "y": 25,
-        "width": 35,
-        "height": 10,
-        "triggers": {
-          "select": ["button.py", "select", 3],
-          "deselect": ["button.py", "deselect", 3],
-          "toggle": ["button.py", "toggle", 3]
-        }
-      },
-      {
-        "type": "button",
-        "images": {
-          "selected": "button4_selected.png",
-          "deselected": "button4_deselected.png"
-        },
-        "x": 50,
-        "y": 25,
-        "width": 35,
-        "height": 10,
-        "triggers": {
-          "select": ["button.py", "select", 4],
-          "deselect": ["button.py", "deselect", 4],
-          "toggle": ["button.py", "toggle", 4]
-        }
-      }
-    ]
-  ],
-  "keybinds": {
-    "select_up": "up",
-    "select_down": "down",
-    "select_left": "left",
-    "select_right": "right",
-    "toggle": "space"
+    "keybinds": {
+      "select_up": "up",
+      "select_down": "down",
+      "select_left": "left",
+      "select_right": "right",
+      "toggle": "space"
+    }
   }
-}
+]
